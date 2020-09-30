@@ -225,23 +225,23 @@ int main(int argc, char *argv[])
 	//argv[2]="main";
 	//argv[3]="";
 	
-	if (strcmp(argv[1],"-d")==0) delf(argv[2]);
+if (strcmp(argv[1],"-d")==0) delf(argv[2]);
 
-	if (strcmp(argv[1],"-c")==0) copf(argv[2], argv[3]);
+if (strcmp(argv[1],"-c")==0) copf(argv[2], argv[3]);
 
-	if (strcmp(argv[1],"-m")==0) movf(argv[2], argv[3]);
+if (strcmp(argv[1],"-m")==0) movf(argv[2], argv[3]);
 	
-	if (strcmp(argv[1],"-w")==0) shof(argv[2]);
+if (strcmp(argv[1],"-w")==0) shof(argv[2]);
 
-    if (strcmp(argv[1],"-p")==0) shop();
+if (strcmp(argv[1],"-p")==0) shop();
 
-	if (strcmp(argv[1],"-s")==0) sizf(argv[2]);
+if (strcmp(argv[1],"-s")==0) sizf(argv[2]);
     
-    if (strcmp(argv[1],"-h")==0) spravka();
+if (strcmp(argv[1],"-h")==0) spravka();
     
-    if (strcmp(argv[1],"--help")==0) spravka();
+if (strcmp(argv[1],"--help")==0) spravka();
 		
-	return 0;	
+return 0;	
 }
 
 
